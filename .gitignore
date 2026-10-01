@@ -1,17 +1,17 @@
 # Models and Indexes
-models/
-*.bin
-*.pkl
-*.pt
-*.pth
-*.safetensors
-*.joblib
+# models/
+# *.bin
+# *.pkl
+# *.pt
+# *.pth
+# *.safetensors
+# *.joblib
 
 # Data
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
+# data/raw/*
+# !data/raw/.gitkeep
+# data/processed/*
+# !data/processed/.gitkeep
 
 # Environment and Bytecode
 .env
@@ -22,6 +22,6 @@ __pycache__/
 .idea/
 
 # RAG generated artifacts
-artifacts/**/*.faiss
-artifacts/**/*.pkl
-artifacts/**/*.index
+# artifacts/**/*.faiss
+# artifacts/**/*.pkl
+# artifacts/**/*.index

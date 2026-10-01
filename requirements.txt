@@ -1,3 +1,6 @@
+# Add these to your existing requirements.txt for the API + new AI features
+fastapi>=0.110
+uvicorn[standard]>=0.29
 pandas
 numpy
 scikit-learn
@@ -7,3 +10,5 @@ rank-bm25
 faiss-cpu
 groq
 python-dotenv
+streamlit
+requests
